@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     width:100%;
+     height:100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: linear-gradient(#f0f783,#94a0f2);
+     color: #000000;
+     font-size: 25px;
+     font-family: 'Poppins', sans-serif;
+}
+
+.temperature-converter-container{
+    background-color: wheat;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: -5px -5px 250px 0 rgba(255, 255, 255, 255) inset;
+    backdrop-filter: blur(21px);
+    min-width: 400px;
+}
+
+.title-heading{
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.degree-type{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.degree-field{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input, select{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+input:focus{
+    border: 1px solid #000000;
+}
+
+option{
+    font-size: 15px;
+}
+
+.temperature-field{
+    display: flex;
+    flex-direction: column;
+}
+
+#convert-btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #5651f5;
+    color: white;
+    margin-top: 15px;
+    width: 150px;
+    font-size: 18px;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.result{
+    margin: 13px;
+}
+
+.celsius-value{
+    border-bottom: 2px solid #000000;
+    font-weight: 600;
+
+}
